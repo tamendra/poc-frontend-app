@@ -1,0 +1,20 @@
+{
+  "name": "poc-frontend-app",
+  "version": "1.0.0",
+  "description": "A proof of concept frontend application to test GitHub Actions and secret management.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "mkdir -p build && cp -r src/* build/",
+    "test": "echo 'No tests implemented yet'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
