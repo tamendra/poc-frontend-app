@@ -1,6 +1,7 @@
 {
   "name": "poc-frontend-app",
   "version": "1.0.0",
+  "homepage": "https://tamendra.github.io/poc-frontend-app",
   "description": "A proof of concept frontend application to test GitHub Actions and secret management.",
   "main": "src/app.js",
   "scripts": {
